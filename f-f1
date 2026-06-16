@@ -1,4 +1,5 @@
 # git installation commands 
 yum install git -y
 git --version
-git init .
+git init 
+https://github.com/maheswari1829/devsecops-demo.git
