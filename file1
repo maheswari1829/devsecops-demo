@@ -1,0 +1,14 @@
+ sudo dnf update -y
+    2  sudo dnf install docker -y
+    3  docker --version
+    4  sudo systemctl start docker
+    5  sudo systemctl enable docker
+    6  sudo systemctl status docker
+    7  history
+
+docker pull jenkins/jenkins:lts
+docker images
+docker volume create jenkins_home
+docker run -d   --name jenkins   -p 8080:8080   -p 50000:50000   -v jenkins_home:/var/jenkins_home   jenkins/jenkins:lts
+docker ps
+history
