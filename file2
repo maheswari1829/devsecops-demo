@@ -1,0 +1,49 @@
+Linux tasks 
+1. Create a new user named john, set a password, and verify the user's details. 
+2. Create a group called devops and add the user john to the group. 
+3. Create a file named salary.txt and ensure only the owner has full permissions on 
+it. 
+4. Change the ownership of application.log to user tom and group devops. 
+5. Create the directory structure project/dev, project/qa, and project/prod in a single 
+command. 
+6. Find a file named httpd.conf anywhere in the system. 
+7. Search for the word ERROR inside the file /var/log/app.log. 
+8. Search for the word error in a file without considering uppercase or lowercase 
+differences. 
+9. Check the server's CPU information, memory usage, and uptime. 
+10. Identify the directory consuming the highest disk space on the server. 
+11. Copy the entire /app directory to /backup. 
+12. Rename config.txt to config_backup.txt. 
+13. Display detailed information about a file named application.log. 
+14. Determine the file type of deploy.sh. 
+15. Monitor application logs in real time. 
+16. Display all running processes and identify the process consuming the highest 
+CPU. 
+17. Stop a process with PID 5678 gracefully, and if it does not stop, forcefully 
+terminate it. 
+18. Display the first 20 lines and the last 20 lines of a file named server.log. 
+19. Remove duplicate entries from a file named employees.txt and display the output 
+in sorted order. 
+20. Search recursively for the word database inside the /opt/application directory. 
+21. Create a script named deploy.sh and make it executable. 
+22. Display all groups to which the user john belongs. 
+23. Display complete information about the user developer. 
+24. Create a directory named logs and create three empty files inside it. 
+25. Copy all files from the source directory to the destination directory. 
+26. Find all files with the extension .log under the /var directory. 
+27. Determine the size of the /opt directory. 
+28. Display information about all available disk partitions. 
+29. Check the current hostname, logged-in users, and current date and time. 
+30. Install Git on a Linux server using the appropriate package manager. 
+31. Remove a package named telnet from the server. 
+32. Display all environment variables available in the current session. 
+33. Create an environment variable named APP_ENV with the value production. 
+34. Display the command history and identify the last 10 executed commands. 
+35. Create an alias named ll to display files in detailed format. 
+36. Create a user named developer, create a group named devops, and add the user 
+to the group. 
+37. Search for all occurrences of the word Jenkins in all files under /opt. 
+38. Display only the unique lines present in a file named servers.txt. 
+39. Sort the contents of a file named employees.txt alphabetically. 
+40. A server is reported as slow. Investigate CPU usage, memory usage, running 
+processes, and system uptime to identify the issue. 
